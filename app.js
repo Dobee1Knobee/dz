@@ -1,11 +1,12 @@
 'use strict'
+//фвавффва
 
 const arr = [
 	{ id: 1, name: 'Вася' },
 	{ id: 2, name: 'Петя' },
 	{ id: 1, name: 'Вася' },
 ]
-
+let a
 // 1) Функция стабильного ключа (фиксируем порядок полей)
 const stableKey = o => JSON.stringify({ id: o.id, name: o.name })
 
