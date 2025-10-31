@@ -1,0 +1,23 @@
+'use strict'
+
+const options = {
+	style: 'currency',
+	currency: 'RUB',
+	useGrouping: false,
+}
+const options2 = {
+	style: 'currency',
+	currency: 'USD',
+}
+const options3 = {
+	style: 'percent',
+}
+const options4 = {
+	style: 'unit',
+	unit: 'celsius',
+}
+console.log(new Intl.NumberFormat('ru-RU', options).format(23000))
+console.log(new Intl.NumberFormat('en-US', options2).format(23000))
+console.log(new Intl.NumberFormat('he-IL', options).format(23000))
+console.log(new Intl.NumberFormat('ru-RU', options3).format(0.1))
+console.log(new Intl.NumberFormat('ru-RU', options4).format(36.6))
