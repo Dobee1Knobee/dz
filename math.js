@@ -1,6 +1,6 @@
 'use strict'
 function randomDyson(dyce) {
-	const num = parseInt(str.slice(1))
+	const num = parseInt(dyce.slice(1))
 	return Math.floor(Math.random() * num) + 1
 }
 
