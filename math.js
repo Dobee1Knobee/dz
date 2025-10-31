@@ -4,4 +4,4 @@ function randomDyson(dyce) {
 	return Math.floor(Math.random() * num) + 1
 }
 
-console.log(randomDyson(4))
+console.log(randomDyson('D4'))
